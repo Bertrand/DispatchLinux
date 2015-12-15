@@ -2,6 +2,7 @@
 module DispatchLinux [system] {
     header "/usr/local/include/dispatch/dispatch.h"
     header "/usr/local/include/dispatch/queue.h"
+    header "/usr/local/include/dispatch/source.h"
     export *
     link "dispatch"
 }
