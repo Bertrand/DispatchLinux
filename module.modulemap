@@ -1,0 +1,6 @@
+
+module CZMQ [system] {
+    header "/usr/local/include/dispatch/*"
+    export *
+    link "dispatch"
+}
