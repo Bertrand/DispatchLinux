@@ -1,6 +1,6 @@
 
 module DispatchLinux [system] {
-    umbrella header "/usr/local/include/dispatch/dispatch.h"
+    umbrella "/usr/local/include/dispatch"
     export *
     link "dispatch"
 }
