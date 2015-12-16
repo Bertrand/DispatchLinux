@@ -1,6 +1,6 @@
 
 module DispatchLinux [system] [extern_c] {
-    umbrella header "/usr/include/dispatch/dispatch.h"
+    umbrella header "/tmp/dispatch/dispatch.h"
     module * { export * }
     export *
 }
