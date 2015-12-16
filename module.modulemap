@@ -1,8 +1,7 @@
 
-module DispatchLinux [system] {
-    header "/usr/local/include/dispatch/dispatch.h"
-    header "/usr/local/include/dispatch/queue.h"
-    textual header "/usr/local/include/dispatch/source.h"
+module DispatchLinux [system] [extern_c] {
+    umbrella header "/usr/local/include/dispatch/dispatch.h"
+    module * { export * }
     export *
-    link "dispatch"
 }
+
